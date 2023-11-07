@@ -13,8 +13,9 @@ class CreatePlatformTable extends Migration
      */
     public function up()
     {
-        Schema::create('platform', function (Blueprint $table) {
+        Schema::create('platforms', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
             $table->timestamps();
         });
     }
@@ -26,6 +27,6 @@ class CreatePlatformTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('platform');
+        Schema::dropIfExists('platforms');
     }
 }
