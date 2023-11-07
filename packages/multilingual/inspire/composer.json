@@ -7,8 +7,12 @@
     },
     "authors": [
         {
-            "name": "Farhan Hasin Chowdhury",
-            "email": "shovik.is.here@gmail.com"
+            "name": "rabie boumaiza",
+            "email": "rabie@gmail.com"
+        },
+        {
+            "name": "amine kacem",
+            "email": "amine.kacem1337@gmail.com"
         }
     ],
     "require": {
