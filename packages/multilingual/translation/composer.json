@@ -1,8 +1,8 @@
 {
-    "name": "multilingual/inspire",
+    "name": "multilingual/translation",
     "autoload": {
         "psr-4": {
-            "Multilingual\\Inspire\\": "src/"
+            "Multilingual\\Translation\\": "src/"
         }
     },
     "authors": [
