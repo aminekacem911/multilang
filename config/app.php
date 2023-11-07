@@ -165,7 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
-        Multilingual\Inspire\Providers\MultilingualProvider::class,
+       Multilingual\Translation\Providers\MultilingualProvider::class,
 
         /*
          * Application Service Providers...
