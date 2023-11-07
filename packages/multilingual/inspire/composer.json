@@ -1,8 +1,8 @@
 {
-    "name": "fhsinchy/inspire",
+    "name": "multilingual/inspire",
     "autoload": {
         "psr-4": {
-            "Fhsinchy\\Inspire\\": "src/"
+            "Multilingual\\Inspire\\": "src/"
         }
     },
     "authors": [

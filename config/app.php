@@ -165,7 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
-        Fhsinchy\Inspire\Providers\InspirationProvider::class,
+        Multilingual\Inspire\Providers\MultilingualProvider::class,
 
         /*
          * Application Service Providers...

@@ -1,10 +1,10 @@
 <?php
 
-namespace Fhsinchy\Inspire\Providers;
+namespace Multilingual\Inspire\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
-class InspirationProvider extends ServiceProvider
+class MultilingualProvider extends ServiceProvider
 {
     /**
      * Register services.
