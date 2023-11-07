@@ -13,7 +13,11 @@ class MultilingualProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        if ($this->app->runningInConsole()) {
+            $this->commands([
+                \Multilingual\Translation\Console\Command\LoadDAtaTranslation::class
+            ]);
+        }
     }
 
     /**
